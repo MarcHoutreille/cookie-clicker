@@ -9,6 +9,12 @@ body {
     text-align: center;
 }
 
+.fa-code {
+    align-content: center;
+    color : white;
+    font-size: 300%;
+}
+
 #points-score {
     font-size: 50px;
     font-family: 'Titillium Web', sans-serif;
