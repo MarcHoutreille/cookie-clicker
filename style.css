@@ -1,0 +1,33 @@
+body {
+    background-color: #FE2555;
+}
+
+#score {
+    width : 90%;
+    margin-right: 5%;
+    margin-left : 5%;
+    text-align: center;
+}
+
+#points-score {
+    font-size: 50px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 900;
+    color: white;
+    line-height: 90%;
+}
+
+#nowrap {
+    white-space: nowrap;
+}
+
+.active-multiplier {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color :  white;
+    font-size : 25px;
+    width: inherit;
+    background-color: #403A44;
+    padding : 20px 20px;
+    border-radius: 50%;   
+    margin-left: -17px;
+}
