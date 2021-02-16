@@ -38,3 +38,31 @@ body {
     margin-left: -17px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
+
+.clicker {
+    display:block;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 250px;
+}
+
+
+.clicker{
+    display:flex;
+    
+    justify-content: center;
+    flex-direction:row;
+}
+.clickercontainer img{
+    position: relative;
+    transition: all .1s ease-in-out; 
+}
+
+.clickercontainer img:hover{ 
+    transform: scale(1.02);
+}
+
+.clickercontainer img:active{ 
+    transform: scale(0.98);
+    
+}
