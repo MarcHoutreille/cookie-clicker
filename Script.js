@@ -1,6 +1,6 @@
 let score = 0;
-let multiplierLevel = 1;
-let multiplierPower = 1;
+let multiplierLevel = 0;
+let multiplierPower = 0;
 let bonus = 0;
 let autoClicker = 0;
 
@@ -12,7 +12,11 @@ score = document.getElementById('score').innerHTML;
 
 /* Add to score when clicked */
 function addToscore(n, multiplierPower, bonus) {
-    score = parseInt(score) + (n * multiplierPower);
+    if ((multiplierPower == 0 && bonus == 0) && (multiplier == 0 || bonus == 0)) {
+        score = parseInt(score) + n;
+    } else {
+        score = parseInt(score) + (n * (multiplierPower + bonus));
+    }
     document.getElementById('score').innerHTML = score;
 }
 
@@ -43,7 +47,7 @@ if (multiplierLevel < 2) {
 } 
 
 function buyMultiplier () {
-    if (multiplierLevel < 4) {
+    if (multiplierLevel < 3) {
         if (score >= multiplierPrice) {
             score = score - multiplierPrice;
             multiplierLevel++;
@@ -52,15 +56,15 @@ function buyMultiplier () {
             document.getElementById("active-multiplier").style.display = "inline";
             document.getElementById('multiplierPrice').innerHTML = multiplierPrice;
             switch (multiplierLevel) {
-                case 2 :
+                case 1 :
                     document.getElementById("active-multiplier").innerHTML = "x 2";
                     multiplierPower = 2;
                 break;
-                case 3 :
+                case 2 :
                     document.getElementById("active-multiplier").innerHTML = "x 5";
                     multiplierPower = 5;
                 break;
-                case 4 : 
+                case 3 : 
                     document.getElementById("active-multiplier").innerHTML = "x 10";
                     multiplierPower = 10;
                 break;
@@ -74,21 +78,20 @@ function buyMultiplier () {
 
 // addToscore(multiplier); quand bonus acheté
 
-/*
+
 function buyBonus () {
+    bonus = 2;
+    setTimeout(function(){
+        bonus = 0;
+    }, 30000);
     if (score >= bonusPrice) {
         score = score - bonusPrice;
-        bonus = 2;
-        setTimeout(stopBonus(){
-            bonus = 0;
-        }, 30000);
         document.getElementById('score').innerHTML = score;
-        document.getElementById('bonus').innerHTML = bonus;
         document.getElementById('bonusPrice').innerHTML = bonusPrice;
     } else {
         // bonus price inactif
     }
-}*/
+}
 
 
 /* setInterval(function(){
