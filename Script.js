@@ -7,19 +7,21 @@ let autoClickerPrice = 25;
 let multiplierPrice = 50;
 let bonusPrice = 75;
 
-document.getElementById('score').innerHTML = score;
+score = document.getElementById('score').innerHTML;
 
-function addToscore (n){
-    score = score = n;
+function addToscore(n) {
+    score = parseInt(score) + n;
     document.getElementById('score').innerHTML = score;
 }
 
+/*
 setInterval(function(){
     score = score + autoClicker;
     score = score * multiplier;
     score = score * bonus;
     document.getElementById('score').innerHTML = score;
 }, 1000);
+*/
 
 
 
