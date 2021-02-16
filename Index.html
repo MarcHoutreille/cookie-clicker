@@ -11,13 +11,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@900&family=Titillium+Web:wght@900&display=swap" rel="stylesheet">
 
 </head>
-
 <body>
     <header>
-
-        <article id="score">
+        <article id="scoredisplay">
                     <h1 id="points-score">
-                        0 lines of <span id="nowrap">code
+                        <span id="score">0</span> lines of <span id="nowrap">code
                             <sub class="active-multiplier">
                                 x 2
                             </sub>
@@ -36,7 +34,7 @@
     </header>
     <main>
         <picture class="clickercontainer">
-            <img src="floppy.svg" class="clicker" alt="image de PC">
+            <img onclick="addToscore(1)" src="floppy.svg" class="clicker" alt="image de PC">
         </picture>
         <article>
             <h2>
@@ -65,5 +63,6 @@
         <p>©Pauline</p>
         <p>©Gonzalo</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
