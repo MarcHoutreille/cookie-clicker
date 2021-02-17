@@ -86,10 +86,14 @@ function buyMultiplier () {
 // addToscore(multiplier); quand bonus acheté
 
 
+document.getElementById("icone-bonus").style.display = "none";
+
 function buyBonus () {
     bonus = 2;
+    document.getElementById("icone-bonus").style.display = "inline";
     setTimeout(function(){
         bonus = 0;
+        document.getElementById("icone-bonus").style.display = "none";
     }, 30000);
     if (score >= bonusPrice) {
         score = score - bonusPrice;
