@@ -205,14 +205,14 @@ footer {
 }
 
 .money-icon {
-    content: url("../svg/btn/money_btn.svg");
+    content: url("svg/btn/money_btn.svg");
     padding-left: 12px;
     width: 1em;
     opacity: 0.4;
 }
 
 .active .money-icon {
-    content: url("../svg/btn/money_btn.svg");
+    content: url("svg/btn/money_btn.svg");
     padding-left: 12px;
     width: 1em;
     opacity: 1;
