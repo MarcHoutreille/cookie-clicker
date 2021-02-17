@@ -100,6 +100,9 @@ Mercredi :
 
 Ce projet nous a appris a travailler en groupe. Nous avons aussi pu améliorer nos connaissances en JS.
 
+## Performances Lighthouse
+![lighthouse](/lighthouse2.png)
+
 ## Participation
 
 Ci dessous le nom des participant a ce projet :
