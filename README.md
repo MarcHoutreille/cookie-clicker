@@ -48,16 +48,40 @@ Branches :
 
 Thomas : Project Manager
 
-Vendredi :
+#### Vendredi :
 
-Définition 
+Choix du projet et définition de la structure du site web
 
-Lundi :
+![Mockup1](previews/mockup1.png)
+![Mockup2](previews/mockup2.png)
+![Mockup3](previews/mockup3.png)
 
+#### Lundi :
 
+1)Réalisation d'un mood board pour définir le thème du projet.
+
+##### Différentes idées proposées 
+![ideas](previews/ideas.png)
+
+##### Inspirations pour le projet
+![inspirations](previews/inspirations.png)
+
+##### Idée de mettre en place une image changeante selon l'avancée du jeu
+![chronologie](previews/chronologie.png)
+
+2) Répartition des tâches dans l'équipe. Choix dans l'équipe de ne pas se répartir les tâches de manière séparée HTML/CSS et JAVASCRIPT. 
+
+Vision globale commmune du projet qui permettait de pouvoir le faire.
+
+- Structure HTML 
+- Réalisation graphique des boutons
+- Initialisation du jeu en JavaScript 
+- 
 
 Mardi : 
 
-
+- 
 
 Mercredi : 
+
+- 
