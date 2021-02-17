@@ -93,4 +93,18 @@ Mercredi :
 - Styliser le footer
 - Terminer le Readme
 
-- 
+## Purpose
+
+Ce projet nous a appris a travailler en groupe. Nous avons aussi pu améliorer nos connaissances en JS.
+
+## Participation
+
+Ci dessous le nom des participant a ce projet :
+
+- [Doomsmash](https://github.com/Doomsmash)
+- [rohmerpauline](https://github.com/rohmerpauline)
+- [MarcHoutreille](https://github.com/MarcHoutreille)
+- [gonzalovsilva](https://github.com/gonzalovsilva)
+
+## Checkout our page
+
