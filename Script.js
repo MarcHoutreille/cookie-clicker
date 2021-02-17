@@ -56,15 +56,15 @@ function buyMultiplier () {
                 document.getElementById('multiplierPrice').innerHTML = multiplierPrice;
                 switch (multiplierLevel) {
                     case 1 :
-                        document.getElementById("icone-multiplier").src = "/svg/btn/multi_x2.svg";
+                        document.getElementById("icone-multiplier").src = "svg/btn/multi_x2.svg";
                         multiplierPower = 2;
                     break;
                     case 2 :
-                        document.getElementById("icone-multiplier").src = "/svg/btn/multi_x5.svg";
+                        document.getElementById("icone-multiplier").src = "svg/btn/multi_x5.svg";
                         multiplierPower = 5;
                     break;
                     case 3 :
-                        document.getElementById("icone-multiplier").src = "/svg/btn/multi_x10.svg";
+                        document.getElementById("icone-multiplier").src = "svg/btn/multi_x10.svg";
                         multiplierPower = 10;
                     break;
                 }
