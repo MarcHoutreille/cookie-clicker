@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 body {
     background-color: #FE2555;
@@ -30,7 +31,7 @@ body {
     white-space: nowrap;
 }
 
-/* .active-multiplier {
+ .active-multiplier {
     font-family: 'Alegreya Sans SC', sans-serif;
     color :  white;
     font-size : 25px;
@@ -38,19 +39,15 @@ body {
     background-color: #403A44;
     padding : 10px 10px;
     border-radius: 50%;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;  
     margin-left: -17px;
-} */
+} 
 
-#icone-multiplier {
+.animation-score {
     width : 50px;
     height: auto;
     margin-left : -10px;
     vertical-align: -50%;
-    filter: invert();
-}
-
-.animation-multiplier {
+    filter: drop-shadow(0px 2px 0px #414141);
     animation-duration: 1s;
     animation-name: heartbeat;
     animation-iteration-count: infinite;
@@ -96,4 +93,180 @@ body {
 
 .clickercontainer img:active{ 
     transform: scale(0.98);
+}
+
+body {
+    background-color: #FE2555;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    margin: 25px 20px;
+}
+
+.btn {
+    grid-auto-columns: min-content;
+    width: 86.5px;
+    text-align: center;
+    font-size: 0.8em;
+    overflow: hidden;
+    border-radius: 1.5em;
+    justify-self: center;
+    box-shadow: 0px 4px 6px 2px rgba(0, 0, 0, 0.50);
+}
+
+.btn,
+.btn-price p {
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+}
+
+.blue {
+    background-color: #5392b9;
+}
+
+.grey {
+    background-color: #403a44;
+}
+
+.gold {
+    background-color: #e9995c;
+}
+
+.disable {
+    background-color: #a2a2a2 !important;
+}
+
+.disable img {
+    opacity: 0.2;
+    filter: invert();
+}
+
+.active .btn-name {
+    color: white;
+    margin: 10px 5px 5px;
+}
+
+.btn-name {
+    color: #808080;
+    margin: 10px 5px 5px;
+}
+
+.active .btn-price {
+    background-color: #eecad1;
+}
+
+.btn-price {
+    background-color: #b3b3b3;
+}
+
+.active .btn-price p {
+    color: #403a44;
+}
+
+.btn-price p {
+    margin-top: 5px;
+    font-size: 1.6em;
+    color: #808080;
+    padding: 4px 2px;
+}
+
+.btn img {
+    justify-self: center;
+    width: 70%;
+}
+
+.money-icon {
+    content: url("../svg/btn/money_btn.svg");
+    padding-left: 12px;
+    width: 1em;
+    opacity: 0.4;
+}
+
+.active .money-icon {
+    content: url("../svg/btn/money_btn.svg");
+    padding-left: 12px;
+    width: 1em;
+    opacity: 1;
+}
+
+@media screen and (min-width: 640px) {
+    .btn {
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+        width: auto;
+    }
+    .btn-name {
+        justify-self: left;
+        padding-left: 15px;
+    }
+    .btn img{
+        align-self: center;
+        height: 80%;
+    }
+    .row {
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: 1fr;
+        row-gap: 25px;
+    }
+    body {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 100px 1fr 100px;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 100px 100px;
+        grid-area: 2/2/3/3;
+    }
+
+    main .clickercontainer {
+        display: grid;
+        grid-area: 1/1/4/2;
+    }
+
+    main .btn_blue_active {
+        display: grid;
+        grid-area: 1/2/2/3;
+    }
+
+     main .btn_grey_active {
+        display: grid;
+        grid-area: 2/2/3/3;
+    }
+
+     main .btn_gold_active {
+        display: grid;
+        grid-area: 3/2/4/3;
+    }
+
+     main .btn_blue_disable {
+        display: grid;
+        grid-area: 1/2/2/3;
+    }
+
+    main .btn_grey_disable {
+        display: grid;
+        grid-area: 2/2/3/3;
+    }
+    
+    main .btn_gold_disable {
+        display: grid;
+        grid-area: 3/2/4/3;
+    }
+    
+    header {
+        display: grid;
+        grid-area: 1/2/2/3;
+    }
+
+    footer {
+        display: grid;
+        grid-area: 3/2/4/3;
+    }
 }

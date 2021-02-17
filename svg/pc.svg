@@ -1,110 +1,122 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 498 373" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;">
-    <g transform="matrix(1,0,0,1,-260.3,-305.8)">
-        <path id="XMLID_74_" d="M738.7,678.2L279.3,678.2C268.8,678.2 260.3,669.7 260.3,659.2C260.3,648.7 268.8,640.2 279.3,640.2L738.6,640.2C749.1,640.2 757.6,648.7 757.6,659.2C757.7,669.7 749.2,678.2 738.7,678.2Z" style="fill:rgb(53,53,53);fill-opacity:0.34;fill-rule:nonzero;"/>
-        <path id="XMLID_28_" d="M381.8,520.8L381.8,320.8C381.8,314.2 387.2,308.8 393.8,308.8L613.8,308.8C620.4,308.8 625.8,314.2 625.8,320.8L625.8,520.8C625.8,527.4 620.4,532.8 613.8,532.8L393.8,532.8C387.1,532.8 381.8,527.4 381.8,520.8Z" style="fill:rgb(237,190,196);fill-rule:nonzero;"/>
-        <path id="XMLID_31_" d="M389.8,511.5L389.8,323.5C389.8,320.7 392,318.5 394.8,318.5L612.8,318.5C615.6,318.5 617.8,320.7 617.8,323.5L617.8,511.5C617.8,514.3 615.6,516.5 612.8,516.5L394.8,516.5C392,516.5 389.8,514.2 389.8,511.5Z" style="fill:rgb(244,215,222);fill-rule:nonzero;"/>
-        <path id="XMLID_16_" d="M381.8,520.8L381.8,320.8C381.8,314.2 387.2,308.8 393.8,308.8L613.8,308.8C620.4,308.8 625.8,314.2 625.8,320.8L625.8,520.8C625.8,527.4 620.4,532.8 613.8,532.8L393.8,532.8C387.1,532.8 381.8,527.4 381.8,520.8Z" style="fill:none;fill-rule:nonzero;stroke:rgb(58,56,66);stroke-width:6px;"/>
-        <path id="XMLID_32_" d="M399.8,483.5L399.8,337.5C399.8,333.6 402.9,330.5 406.8,330.5L600.8,330.5C604.7,330.5 607.8,333.6 607.8,337.5L607.8,483.5C607.8,487.4 604.7,490.5 600.8,490.5L406.8,490.5C402.9,490.5 399.8,487.4 399.8,483.5Z" style="fill:rgb(237,190,196);fill-rule:nonzero;"/>
-        <path id="XMLID_30_" d="M428.8,481.5C416.7,481.5 406.8,471.6 406.8,459.5L406.8,361.5C406.8,349.4 416.7,339.5 428.8,339.5L578.8,339.5C590.9,339.5 600.8,349.4 600.8,361.5L600.8,459.5C600.8,471.6 590.9,481.5 578.8,481.5L428.8,481.5Z" style="fill:rgb(58,56,66);fill-rule:nonzero;"/>
-        <path id="XMLID_8_" d="M582.8,550.8L424.8,550.8C420.4,550.8 416.8,547.2 416.8,542.8L416.8,532.8L590.8,532.8L590.8,542.8C590.8,547.2 587.2,550.8 582.8,550.8Z" style="fill:rgb(237,190,196);fill-rule:nonzero;"/>
-        <rect id="XMLID_29_" x="416.8" y="532.8" width="174" height="9" style="fill:rgb(219,161,169);"/>
-        <path id="XMLID_6_" d="M582.8,550.8L424.8,550.8C420.4,550.8 416.8,547.2 416.8,542.8L416.8,532.8L590.8,532.8L590.8,542.8C590.8,547.2 587.2,550.8 582.8,550.8Z" style="fill:none;fill-rule:nonzero;stroke:rgb(58,56,66);stroke-width:6px;"/>
-        <path id="XMLID_7_" d="M675.8,646.8L331.8,646.8C327.4,646.8 323.8,643.2 323.8,638.8L323.8,558.8C323.8,554.4 327.4,550.8 331.8,550.8L675.8,550.8C680.2,550.8 683.8,554.4 683.8,558.8L683.8,638.8C683.8,643.2 680.2,646.8 675.8,646.8Z" style="fill:rgb(237,190,196);fill-rule:nonzero;"/>
-        <path id="XMLID_4_" d="M675.8,646.8L331.8,646.8C327.4,646.8 323.8,643.2 323.8,638.8L323.8,558.8C323.8,554.4 327.4,550.8 331.8,550.8L675.8,550.8C680.2,550.8 683.8,554.4 683.8,558.8L683.8,638.8C683.8,643.2 680.2,646.8 675.8,646.8Z" style="fill:none;fill-rule:nonzero;stroke:rgb(58,56,66);stroke-width:6px;"/>
-        <path id="XMLID_34_" d="M336.2,630.8L336.2,566.8C336.2,562.4 339.8,558.8 344.2,558.8L663.3,558.8C667.7,558.8 671.3,562.4 671.3,566.8L671.3,630.8C671.3,635.2 667.7,638.8 663.3,638.8L344.2,638.8C339.8,638.8 336.2,635.2 336.2,630.8Z" style="fill:rgb(244,215,222);fill-rule:nonzero;"/>
-        <circle id="XMLID_37_" cx="574" cy="503.1" r="7.5" style="fill:rgb(202,181,234);"/>
-        <circle id="XMLID_1_" cx="574" cy="503.1" r="6.5" style="fill:rgb(58,56,66);"/>
-        <circle id="XMLID_39_" cx="574" cy="503.1" r="5.6" style="fill:rgb(51,49,58);"/>
-        <g id="XMLID_136_">
-            <path id="XMLID_137_" d="M444.2,604.3L444.2,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(237,190,196);stroke-width:6px;"/>
+<svg width="100%" height="100%" viewBox="0 0 1080 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;">
+    <g id="day39-pc.svg" transform="matrix(2,0,0,2,538.908,556.182)">
+        <g transform="matrix(1,0,0,1,-500,-500)">
+            <path id="XMLID_74_" d="M738.7,678.2L279.3,678.2C268.8,678.2 260.3,669.7 260.3,659.2C260.3,648.7 268.8,640.2 279.3,640.2L738.6,640.2C749.1,640.2 757.6,648.7 757.6,659.2C757.7,669.7 749.2,678.2 738.7,678.2Z" style="fill:rgb(53,53,53);fill-opacity:0.34;fill-rule:nonzero;"/>
+            <path id="XMLID_28_" d="M381.8,520.8L381.8,320.8C381.8,314.2 387.2,308.8 393.8,308.8L613.8,308.8C620.4,308.8 625.8,314.2 625.8,320.8L625.8,520.8C625.8,527.4 620.4,532.8 613.8,532.8L393.8,532.8C387.1,532.8 381.8,527.4 381.8,520.8Z" style="fill:rgb(237,190,196);fill-rule:nonzero;"/>
+            <path id="XMLID_31_" d="M389.8,511.5L389.8,323.5C389.8,320.7 392,318.5 394.8,318.5L612.8,318.5C615.6,318.5 617.8,320.7 617.8,323.5L617.8,511.5C617.8,514.3 615.6,516.5 612.8,516.5L394.8,516.5C392,516.5 389.8,514.2 389.8,511.5Z" style="fill:rgb(244,215,222);fill-rule:nonzero;"/>
+            <path id="XMLID_16_" d="M381.8,520.8L381.8,320.8C381.8,314.2 387.2,308.8 393.8,308.8L613.8,308.8C620.4,308.8 625.8,314.2 625.8,320.8L625.8,520.8C625.8,527.4 620.4,532.8 613.8,532.8L393.8,532.8C387.1,532.8 381.8,527.4 381.8,520.8Z" style="fill:none;fill-rule:nonzero;stroke:rgb(58,56,66);stroke-width:6px;"/>
+            <path id="XMLID_32_" d="M399.8,483.5L399.8,337.5C399.8,333.6 402.9,330.5 406.8,330.5L600.8,330.5C604.7,330.5 607.8,333.6 607.8,337.5L607.8,483.5C607.8,487.4 604.7,490.5 600.8,490.5L406.8,490.5C402.9,490.5 399.8,487.4 399.8,483.5Z" style="fill:rgb(237,190,196);fill-rule:nonzero;"/>
+            <path id="XMLID_30_" d="M428.8,481.5C416.7,481.5 406.8,471.6 406.8,459.5L406.8,361.5C406.8,349.4 416.7,339.5 428.8,339.5L578.8,339.5C590.9,339.5 600.8,349.4 600.8,361.5L600.8,459.5C600.8,471.6 590.9,481.5 578.8,481.5L428.8,481.5Z" style="fill:rgb(58,56,66);fill-rule:nonzero;"/>
+            <path id="XMLID_8_" d="M582.8,550.8L424.8,550.8C420.4,550.8 416.8,547.2 416.8,542.8L416.8,532.8L590.8,532.8L590.8,542.8C590.8,547.2 587.2,550.8 582.8,550.8Z" style="fill:rgb(237,190,196);fill-rule:nonzero;"/>
+            <rect id="XMLID_29_" x="416.8" y="532.8" width="174" height="9" style="fill:rgb(219,161,169);"/>
+            <path id="XMLID_6_" d="M582.8,550.8L424.8,550.8C420.4,550.8 416.8,547.2 416.8,542.8L416.8,532.8L590.8,532.8L590.8,542.8C590.8,547.2 587.2,550.8 582.8,550.8Z" style="fill:none;fill-rule:nonzero;stroke:rgb(58,56,66);stroke-width:6px;"/>
+            <path id="XMLID_7_" d="M675.8,646.8L331.8,646.8C327.4,646.8 323.8,643.2 323.8,638.8L323.8,558.8C323.8,554.4 327.4,550.8 331.8,550.8L675.8,550.8C680.2,550.8 683.8,554.4 683.8,558.8L683.8,638.8C683.8,643.2 680.2,646.8 675.8,646.8Z" style="fill:rgb(237,190,196);fill-rule:nonzero;"/>
+            <path id="XMLID_4_" d="M675.8,646.8L331.8,646.8C327.4,646.8 323.8,643.2 323.8,638.8L323.8,558.8C323.8,554.4 327.4,550.8 331.8,550.8L675.8,550.8C680.2,550.8 683.8,554.4 683.8,558.8L683.8,638.8C683.8,643.2 680.2,646.8 675.8,646.8Z" style="fill:none;fill-rule:nonzero;stroke:rgb(58,56,66);stroke-width:6px;"/>
+            <path id="XMLID_34_" d="M336.2,630.8L336.2,566.8C336.2,562.4 339.8,558.8 344.2,558.8L663.3,558.8C667.7,558.8 671.3,562.4 671.3,566.8L671.3,630.8C671.3,635.2 667.7,638.8 663.3,638.8L344.2,638.8C339.8,638.8 336.2,635.2 336.2,630.8Z" style="fill:rgb(244,215,222);fill-rule:nonzero;"/>
+            <circle id="XMLID_37_" cx="574" cy="503.1" r="7.5" style="fill:rgb(202,181,234);"/>
+            <circle id="XMLID_1_" cx="574" cy="503.1" r="6.5" style="fill:rgb(58,56,66);"/>
+            <circle id="XMLID_39_" cx="574" cy="503.1" r="5.6" style="fill:rgb(51,49,58);"/>
+            <g id="XMLID_24_">
+                <g id="XMLID_136_">
+                    <path id="XMLID_137_" d="M444.2,604.3L444.2,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(237,190,196);stroke-width:6px;"/>
+                </g>
+                <g id="XMLID_133_">
+                    <path id="XMLID_134_" d="M434.2,604.3L434.2,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(237,190,196);stroke-width:6px;"/>
+                </g>
+                <g id="XMLID_130_">
+                    <path id="XMLID_131_" d="M424.2,604.3L424.2,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(237,190,196);stroke-width:6px;"/>
+                </g>
+                <g id="XMLID_127_">
+                    <path id="XMLID_128_" d="M414.2,604.3L414.2,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(237,190,196);stroke-width:6px;"/>
+                </g>
+                <g id="XMLID_124_">
+                    <path id="XMLID_125_" d="M404.2,604.3L404.2,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(237,190,196);stroke-width:6px;"/>
+                </g>
+                <g id="XMLID_121_">
+                    <path id="XMLID_122_" d="M394.2,604.3L394.2,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(237,190,196);stroke-width:6px;"/>
+                </g>
+                <g id="XMLID_118_">
+                    <path id="XMLID_119_" d="M384.2,604.3L384.2,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(237,190,196);stroke-width:6px;"/>
+                </g>
+                <g id="XMLID_115_">
+                    <path id="XMLID_116_" d="M374.2,604.3L374.2,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(237,190,196);stroke-width:6px;"/>
+                </g>
+                <g id="XMLID_112_">
+                    <path id="XMLID_113_" d="M364.2,604.3L364.2,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(237,190,196);stroke-width:6px;"/>
+                </g>
+            </g>
+            <g id="XMLID_42_">
+                <g id="XMLID_60_">
+                    <path id="XMLID_61_" d="M445.1,604.3L445.1,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(58,56,66);stroke-width:4px;"/>
+                </g>
+                <g id="XMLID_58_">
+                    <path id="XMLID_59_" d="M435.1,604.3L435.1,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(58,56,66);stroke-width:4px;"/>
+                </g>
+                <g id="XMLID_56_">
+                    <path id="XMLID_57_" d="M425.1,604.3L425.1,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(58,56,66);stroke-width:4px;"/>
+                </g>
+                <g id="XMLID_54_">
+                    <path id="XMLID_55_" d="M415.1,604.3L415.1,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(58,56,66);stroke-width:4px;"/>
+                </g>
+                <g id="XMLID_52_">
+                    <path id="XMLID_53_" d="M405.1,604.3L405.1,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(58,56,66);stroke-width:4px;"/>
+                </g>
+                <g id="XMLID_50_">
+                    <path id="XMLID_51_" d="M395.1,604.3L395.1,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(58,56,66);stroke-width:4px;"/>
+                </g>
+                <g id="XMLID_48_">
+                    <path id="XMLID_49_" d="M385.1,604.3L385.1,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(58,56,66);stroke-width:4px;"/>
+                </g>
+                <g id="XMLID_46_">
+                    <path id="XMLID_47_" d="M375.1,604.3L375.1,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(58,56,66);stroke-width:4px;"/>
+                </g>
+                <g id="XMLID_44_">
+                    <path id="XMLID_45_" d="M365.1,604.3L365.1,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(58,56,66);stroke-width:4px;"/>
+                </g>
+            </g>
+            <g id="XMLID_38_">
+                <rect id="XMLID_12_" x="359.8" y="571.2" width="6.8" height="6.8" style="fill:rgb(242,102,64);"/>
+                <rect id="XMLID_25_" x="368" y="571.2" width="6.8" height="6.8" style="fill:rgb(94,183,85);"/>
+                <rect id="XMLID_26_" x="359.8" y="579.1" width="6.8" height="6.8" style="fill:rgb(106,130,234);"/>
+                <rect id="XMLID_27_" x="368" y="579.1" width="6.8" height="6.8" style="fill:rgb(239,173,67);"/>
+            </g>
+            <path id="XMLID_36_" d="M464,355.8L519.3,355.8" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:8px;"/>
+            <path id="XMLID_17_" d="M432,355.8L448,355.8" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:8px;"/>
+            <path id="XMLID_40_" d="M578.8,339.5L571.2,339.5C566.5,403.4 513.2,453.8 448.1,453.8L406.8,453.8L406.8,459.5C406.8,471.6 416.7,481.5 428.8,481.5L578.8,481.5C590.9,481.5 600.8,471.6 600.8,459.5L600.8,361.5C600.8,349.4 590.9,339.5 578.8,339.5Z" style="fill:rgb(51,49,58);fill-rule:nonzero;"/>
+            <rect id="XMLID_35_" x="378.1" y="574.5" width="24.8" height="3.6" style="fill:rgb(58,56,66);fill-opacity:0.34;"/>
+            <rect id="XMLID_41_" x="378.1" y="580.7" width="12.4" height="1.9" style="fill:rgb(58,56,66);fill-opacity:0.34;"/>
+            <rect id="XMLID_68_" x="405" y="632.5" width="104" height="12" style="fill:rgb(232,181,187);"/>
+            <rect id="XMLID_67_" x="343.2" y="632.5" width="20" height="12" style="fill:rgb(232,181,187);"/>
+            <rect id="XMLID_66_" x="374.1" y="632.5" width="20" height="12" style="fill:rgb(232,181,187);"/>
+            <rect id="XMLID_65_" x="519.9" y="632.5" width="20" height="12" style="fill:rgb(232,181,187);"/>
+            <rect id="XMLID_64_" x="550.8" y="632.5" width="20" height="12" style="fill:rgb(232,181,187);"/>
+            <rect id="XMLID_63_" x="581.8" y="632.5" width="20" height="12" style="fill:rgb(232,181,187);"/>
+            <rect id="XMLID_10_" x="405" y="632.5" width="104" height="12" style="fill:none;stroke:rgb(58,56,66);stroke-width:6px;"/>
+            <rect id="XMLID_19_" x="343.2" y="632.5" width="20" height="12" style="fill:none;stroke:rgb(58,56,66);stroke-width:6px;"/>
+            <rect id="XMLID_20_" x="374.1" y="632.5" width="20" height="12" style="fill:none;stroke:rgb(58,56,66);stroke-width:6px;"/>
+            <rect id="XMLID_21_" x="519.9" y="632.5" width="20" height="12" style="fill:none;stroke:rgb(58,56,66);stroke-width:6px;"/>
+            <rect id="XMLID_22_" x="550.8" y="632.5" width="20" height="12" style="fill:none;stroke:rgb(58,56,66);stroke-width:6px;"/>
+            <rect id="XMLID_23_" x="581.8" y="632.5" width="20" height="12" style="fill:none;stroke:rgb(58,56,66);stroke-width:6px;"/>
+            <path id="XMLID_62_" d="M620.8,662.5L324.8,662.5C322.6,662.5 320.8,660.7 320.8,658.5L320.8,648.5C320.8,646.3 322.6,644.5 324.8,644.5L620.8,644.5C623,644.5 624.8,646.3 624.8,648.5L624.8,658.5C624.8,660.7 623,662.5 620.8,662.5Z" style="fill:rgb(242,204,212);fill-rule:nonzero;"/>
+            <path id="XMLID_15_" d="M620.8,662.5L324.8,662.5C322.6,662.5 320.8,660.7 320.8,658.5L320.8,648.5C320.8,646.3 322.6,644.5 324.8,644.5L620.8,644.5C623,644.5 624.8,646.3 624.8,648.5L624.8,658.5C624.8,660.7 623,662.5 620.8,662.5Z" style="fill:none;fill-rule:nonzero;stroke:rgb(58,56,66);stroke-width:6px;"/>
+            <path id="XMLID_71_" d="M685.2,662.5L647.8,662.5L647.8,657.7C647.8,650.4 653.7,644.5 661,644.5L672,644.5C679.3,644.5 685.2,650.4 685.2,657.7L685.2,662.5Z" style="fill:rgb(242,204,212);fill-rule:nonzero;"/>
+            <path id="XMLID_70_" d="M685.2,662.5L647.8,662.5L647.8,657.7C647.8,650.4 653.7,644.5 661,644.5L672,644.5C679.3,644.5 685.2,650.4 685.2,657.7L685.2,662.5Z" style="fill:none;fill-rule:nonzero;stroke:rgb(58,56,66);stroke-width:6px;"/>
+            <g id="XMLID_72_">
+                <path id="XMLID_14_" d="M646.4,591.5L555.1,591.5C554.4,591.5 553.7,590.9 553.7,590.1L553.7,582.1C553.7,581.4 554.3,580.7 555.1,580.7L646.4,580.7C647.1,580.7 647.8,581.3 647.8,582.1L647.8,590.1C647.8,590.9 647.2,591.5 646.4,591.5Z" style="fill:rgb(237,190,196);fill-rule:nonzero;"/>
+                <path id="XMLID_13_" d="M612.6,595.5L588.9,595.5C588.2,595.5 587.7,594.9 587.7,594.3L587.7,578C587.7,577.3 588.3,576.8 588.9,576.8L612.6,576.8C613.3,576.8 613.8,577.4 613.8,578L613.8,594.3C613.9,595 613.3,595.5 612.6,595.5Z" style="fill:rgb(237,190,196);fill-rule:nonzero;"/>
+                <rect id="XMLID_9_" x="557.8" y="582.1" width="86" height="8" style="fill:rgb(58,56,66);"/>
+                <rect id="XMLID_11_" x="588.8" y="579.1" width="24" height="14" style="fill:rgb(58,56,66);"/>
+                <path id="XMLID_73_" d="M559.8,586.1C559.8,585 560.7,584.1 561.8,584.1L639.8,584.1C640.9,584.1 641.8,585 641.8,586.1C641.8,587.2 640.9,588.1 639.8,588.1L561.8,588.1C560.7,588.1 559.8,587.2 559.8,586.1Z" style="fill:rgb(51,49,58);fill-rule:nonzero;"/>
+            </g>
+            <g id="XMLID_75_">
+                <path id="XMLID_80_" d="M646.4,616.8L555.1,616.8C554.4,616.8 553.7,616.2 553.7,615.4L553.7,607.4C553.7,606.7 554.3,606 555.1,606L646.4,606C647.1,606 647.8,606.6 647.8,607.4L647.8,615.4C647.8,616.2 647.2,616.8 646.4,616.8Z" style="fill:rgb(237,190,196);fill-rule:nonzero;"/>
+                <path id="XMLID_79_" d="M612.6,620.9L588.9,620.9C588.2,620.9 587.7,620.3 587.7,619.7L587.7,603.4C587.7,602.7 588.3,602.2 588.9,602.2L612.6,602.2C613.3,602.2 613.8,602.8 613.8,603.4L613.8,619.7C613.9,620.3 613.3,620.9 612.6,620.9Z" style="fill:rgb(237,190,196);fill-rule:nonzero;"/>
+                <rect id="XMLID_78_" x="557.8" y="607.5" width="86" height="8" style="fill:rgb(58,56,66);"/>
+                <rect id="XMLID_77_" x="588.8" y="604.5" width="24" height="14" style="fill:rgb(58,56,66);"/>
+                <path id="XMLID_76_" d="M559.8,611.5C559.8,610.4 560.7,609.5 561.8,609.5L639.8,609.5C640.9,609.5 641.8,610.4 641.8,611.5C641.8,612.6 640.9,613.5 639.8,613.5L561.8,613.5C560.7,613.5 559.8,612.6 559.8,611.5Z" style="fill:rgb(51,49,58);fill-rule:nonzero;"/>
+            </g>
         </g>
-        <g id="XMLID_133_">
-            <path id="XMLID_134_" d="M434.2,604.3L434.2,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(237,190,196);stroke-width:6px;"/>
-        </g>
-        <g id="XMLID_130_">
-            <path id="XMLID_131_" d="M424.2,604.3L424.2,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(237,190,196);stroke-width:6px;"/>
-        </g>
-        <g id="XMLID_127_">
-            <path id="XMLID_128_" d="M414.2,604.3L414.2,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(237,190,196);stroke-width:6px;"/>
-        </g>
-        <g id="XMLID_124_">
-            <path id="XMLID_125_" d="M404.2,604.3L404.2,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(237,190,196);stroke-width:6px;"/>
-        </g>
-        <g id="XMLID_121_">
-            <path id="XMLID_122_" d="M394.2,604.3L394.2,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(237,190,196);stroke-width:6px;"/>
-        </g>
-        <g id="XMLID_118_">
-            <path id="XMLID_119_" d="M384.2,604.3L384.2,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(237,190,196);stroke-width:6px;"/>
-        </g>
-        <g id="XMLID_115_">
-            <path id="XMLID_116_" d="M374.2,604.3L374.2,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(237,190,196);stroke-width:6px;"/>
-        </g>
-        <g id="XMLID_112_">
-            <path id="XMLID_113_" d="M364.2,604.3L364.2,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(237,190,196);stroke-width:6px;"/>
-        </g>
-        <g id="XMLID_60_">
-            <path id="XMLID_61_" d="M445.1,604.3L445.1,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(58,56,66);stroke-width:4px;"/>
-        </g>
-        <g id="XMLID_58_">
-            <path id="XMLID_59_" d="M435.1,604.3L435.1,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(58,56,66);stroke-width:4px;"/>
-        </g>
-        <g id="XMLID_56_">
-            <path id="XMLID_57_" d="M425.1,604.3L425.1,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(58,56,66);stroke-width:4px;"/>
-        </g>
-        <g id="XMLID_54_">
-            <path id="XMLID_55_" d="M415.1,604.3L415.1,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(58,56,66);stroke-width:4px;"/>
-        </g>
-        <g id="XMLID_52_">
-            <path id="XMLID_53_" d="M405.1,604.3L405.1,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(58,56,66);stroke-width:4px;"/>
-        </g>
-        <g id="XMLID_50_">
-            <path id="XMLID_51_" d="M395.1,604.3L395.1,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(58,56,66);stroke-width:4px;"/>
-        </g>
-        <g id="XMLID_48_">
-            <path id="XMLID_49_" d="M385.1,604.3L385.1,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(58,56,66);stroke-width:4px;"/>
-        </g>
-        <g id="XMLID_46_">
-            <path id="XMLID_47_" d="M375.1,604.3L375.1,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(58,56,66);stroke-width:4px;"/>
-        </g>
-        <g id="XMLID_44_">
-            <path id="XMLID_45_" d="M365.1,604.3L365.1,631.8" style="fill:none;fill-rule:nonzero;stroke:rgb(58,56,66);stroke-width:4px;"/>
-        </g>
-        <rect id="XMLID_12_" x="359.8" y="571.2" width="6.8" height="6.8" style="fill:rgb(242,102,64);"/>
-        <rect id="XMLID_25_" x="368" y="571.2" width="6.8" height="6.8" style="fill:rgb(94,183,85);"/>
-        <rect id="XMLID_26_" x="359.8" y="579.1" width="6.8" height="6.8" style="fill:rgb(106,130,234);"/>
-        <rect id="XMLID_27_" x="368" y="579.1" width="6.8" height="6.8" style="fill:rgb(239,173,67);"/>
-        <path id="XMLID_36_" d="M464,355.8L519.3,355.8" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:8px;"/>
-        <path id="XMLID_17_" d="M432,355.8L448,355.8" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:8px;"/>
-        <path id="XMLID_40_" d="M578.8,339.5L571.2,339.5C566.5,403.4 513.2,453.8 448.1,453.8L406.8,453.8L406.8,459.5C406.8,471.6 416.7,481.5 428.8,481.5L578.8,481.5C590.9,481.5 600.8,471.6 600.8,459.5L600.8,361.5C600.8,349.4 590.9,339.5 578.8,339.5Z" style="fill:rgb(51,49,58);fill-rule:nonzero;"/>
-        <rect id="XMLID_35_" x="378.1" y="574.5" width="24.8" height="3.6" style="fill:rgb(58,56,66);fill-opacity:0.34;"/>
-        <rect id="XMLID_41_" x="378.1" y="580.7" width="12.4" height="1.9" style="fill:rgb(58,56,66);fill-opacity:0.34;"/>
-        <rect id="XMLID_68_" x="405" y="632.5" width="104" height="12" style="fill:rgb(232,181,187);"/>
-        <rect id="XMLID_67_" x="343.2" y="632.5" width="20" height="12" style="fill:rgb(232,181,187);"/>
-        <rect id="XMLID_66_" x="374.1" y="632.5" width="20" height="12" style="fill:rgb(232,181,187);"/>
-        <rect id="XMLID_65_" x="519.9" y="632.5" width="20" height="12" style="fill:rgb(232,181,187);"/>
-        <rect id="XMLID_64_" x="550.8" y="632.5" width="20" height="12" style="fill:rgb(232,181,187);"/>
-        <rect id="XMLID_63_" x="581.8" y="632.5" width="20" height="12" style="fill:rgb(232,181,187);"/>
-        <rect id="XMLID_10_" x="405" y="632.5" width="104" height="12" style="fill:none;stroke:rgb(58,56,66);stroke-width:6px;"/>
-        <rect id="XMLID_19_" x="343.2" y="632.5" width="20" height="12" style="fill:none;stroke:rgb(58,56,66);stroke-width:6px;"/>
-        <rect id="XMLID_20_" x="374.1" y="632.5" width="20" height="12" style="fill:none;stroke:rgb(58,56,66);stroke-width:6px;"/>
-        <rect id="XMLID_21_" x="519.9" y="632.5" width="20" height="12" style="fill:none;stroke:rgb(58,56,66);stroke-width:6px;"/>
-        <rect id="XMLID_22_" x="550.8" y="632.5" width="20" height="12" style="fill:none;stroke:rgb(58,56,66);stroke-width:6px;"/>
-        <rect id="XMLID_23_" x="581.8" y="632.5" width="20" height="12" style="fill:none;stroke:rgb(58,56,66);stroke-width:6px;"/>
-        <path id="XMLID_62_" d="M620.8,662.5L324.8,662.5C322.6,662.5 320.8,660.7 320.8,658.5L320.8,648.5C320.8,646.3 322.6,644.5 324.8,644.5L620.8,644.5C623,644.5 624.8,646.3 624.8,648.5L624.8,658.5C624.8,660.7 623,662.5 620.8,662.5Z" style="fill:rgb(242,204,212);fill-rule:nonzero;"/>
-        <path id="XMLID_15_" d="M620.8,662.5L324.8,662.5C322.6,662.5 320.8,660.7 320.8,658.5L320.8,648.5C320.8,646.3 322.6,644.5 324.8,644.5L620.8,644.5C623,644.5 624.8,646.3 624.8,648.5L624.8,658.5C624.8,660.7 623,662.5 620.8,662.5Z" style="fill:none;fill-rule:nonzero;stroke:rgb(58,56,66);stroke-width:6px;"/>
-        <path id="XMLID_71_" d="M685.2,662.5L647.8,662.5L647.8,657.7C647.8,650.4 653.7,644.5 661,644.5L672,644.5C679.3,644.5 685.2,650.4 685.2,657.7L685.2,662.5Z" style="fill:rgb(242,204,212);fill-rule:nonzero;"/>
-        <path id="XMLID_70_" d="M685.2,662.5L647.8,662.5L647.8,657.7C647.8,650.4 653.7,644.5 661,644.5L672,644.5C679.3,644.5 685.2,650.4 685.2,657.7L685.2,662.5Z" style="fill:none;fill-rule:nonzero;stroke:rgb(58,56,66);stroke-width:6px;"/>
-        <path id="XMLID_14_" d="M646.4,591.5L555.1,591.5C554.4,591.5 553.7,590.9 553.7,590.1L553.7,582.1C553.7,581.4 554.3,580.7 555.1,580.7L646.4,580.7C647.1,580.7 647.8,581.3 647.8,582.1L647.8,590.1C647.8,590.9 647.2,591.5 646.4,591.5Z" style="fill:rgb(237,190,196);fill-rule:nonzero;"/>
-        <path id="XMLID_13_" d="M612.6,595.5L588.9,595.5C588.2,595.5 587.7,594.9 587.7,594.3L587.7,578C587.7,577.3 588.3,576.8 588.9,576.8L612.6,576.8C613.3,576.8 613.8,577.4 613.8,578L613.8,594.3C613.9,595 613.3,595.5 612.6,595.5Z" style="fill:rgb(237,190,196);fill-rule:nonzero;"/>
-        <rect id="XMLID_9_" x="557.8" y="582.1" width="86" height="8" style="fill:rgb(58,56,66);"/>
-        <rect id="XMLID_11_" x="588.8" y="579.1" width="24" height="14" style="fill:rgb(58,56,66);"/>
-        <path id="XMLID_73_" d="M559.8,586.1C559.8,585 560.7,584.1 561.8,584.1L639.8,584.1C640.9,584.1 641.8,585 641.8,586.1C641.8,587.2 640.9,588.1 639.8,588.1L561.8,588.1C560.7,588.1 559.8,587.2 559.8,586.1Z" style="fill:rgb(51,49,58);fill-rule:nonzero;"/>
-        <path id="XMLID_80_" d="M646.4,616.8L555.1,616.8C554.4,616.8 553.7,616.2 553.7,615.4L553.7,607.4C553.7,606.7 554.3,606 555.1,606L646.4,606C647.1,606 647.8,606.6 647.8,607.4L647.8,615.4C647.8,616.2 647.2,616.8 646.4,616.8Z" style="fill:rgb(237,190,196);fill-rule:nonzero;"/>
-        <path id="XMLID_79_" d="M612.6,620.9L588.9,620.9C588.2,620.9 587.7,620.3 587.7,619.7L587.7,603.4C587.7,602.7 588.3,602.2 588.9,602.2L612.6,602.2C613.3,602.2 613.8,602.8 613.8,603.4L613.8,619.7C613.9,620.3 613.3,620.9 612.6,620.9Z" style="fill:rgb(237,190,196);fill-rule:nonzero;"/>
-        <rect id="XMLID_78_" x="557.8" y="607.5" width="86" height="8" style="fill:rgb(58,56,66);"/>
-        <rect id="XMLID_77_" x="588.8" y="604.5" width="24" height="14" style="fill:rgb(58,56,66);"/>
-        <path id="XMLID_76_" d="M559.8,611.5C559.8,610.4 560.7,609.5 561.8,609.5L639.8,609.5C640.9,609.5 641.8,610.4 641.8,611.5C641.8,612.6 640.9,613.5 639.8,613.5L561.8,613.5C560.7,613.5 559.8,612.6 559.8,611.5Z" style="fill:rgb(51,49,58);fill-rule:nonzero;"/>
     </g>
 </svg>
