@@ -26,6 +26,10 @@ Rubik
 
 ![layout example](previews/btns_layout.png)
 
+### Images:
+
+[Source des illustrations](https://illlustrations.co/?ref=lapaninja)
+
 Branches :
 
 -------Main
@@ -39,4 +43,21 @@ Branches :
                 \------ gonzalo
                 
                  \------ Marc
-                 
+
+### Organisation du projet: 
+
+Thomas : Project Manager
+
+Vendredi :
+
+Définition 
+
+Lundi :
+
+
+
+Mardi : 
+
+
+
+Mercredi : 

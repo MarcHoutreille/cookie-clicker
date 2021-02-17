@@ -12,7 +12,7 @@ score = document.getElementById('score').innerHTML;
 
 /* Add to score when clicked */
 function addToscore(n, multiplierPower, bonus) {
-    if ((multiplierPower == 0 && bonus == 0) && (multiplier == 0 || bonus == 0)) {
+    if ((multiplierPower == 0 && bonus == 0) && (multiplierPower == 0 || bonus == 0)) {
         score = parseInt(score) + n;
     } else {
         score = parseInt(score) + (n * (multiplierPower + bonus));
@@ -40,15 +40,7 @@ function buyAutoClicker() {
     }
 }
 
-if (multiplierLevel < 2) {
-    document.getElementById("icone-multiplier").style.display = "none";
-}
 /*Multiplier*/
-/*
-if (multiplierLevel < 2) {
-    document.getElementById("active-multiplier").style.display = "none";
-} */
-
 function buyMultiplier () {
     if (multiplierLevel < 3) {
         if (score >= multiplierPrice) {
@@ -81,12 +73,6 @@ function buyMultiplier () {
         // bouton inactif 
     }
 }
-            
-
-// addToscore(multiplier); quand bonus acheté
-
-
-document.getElementById("icone-bonus").style.display = "none";
 
 function buyBonus () {
     bonus = 2;
@@ -103,7 +89,6 @@ function buyBonus () {
         // bonus price inactif
     }
 }
-
 
  setInterval(function(){
     score = parseInt(score + autoClicker);
