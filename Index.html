@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Author: Pauline Rohmer, Thomas Quertinmont, Gonzalo Silva, Marc Houtreille">
+    <title>Cookie clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <article id="scoredisplay">
+            <h1 id="points-score">
+                <span id="score">
+                    0
+                </span>
+                lines of
+                <span id="nowrap">
+                    code
+                    <img id="icone-multiplier" class="animation-score" src="svg/btn/multi_x2.svg" alt="auto-clicker icon">
+                    <img id="icone-bonus" class="animation-score" src="svg/btn/bonus.svg" alt="auto-clicker icon">
+                </span>
+            </h1>
+        </article>
+
+        </section>
+        <section id="bonus">
+
+        </section>
+    </header>
+    <main>
+        <picture class="clickercontainer">
+            <img id="change- image" onclick="addToscore(1, multiplierPower, bonus)" src="svg/floppy.svg" class="clicker" alt="image de PC">
+        </picture>
+
+        <section class="row">
+
+            <a href="#" id ="btn-autoclicker" class="btn blue disable" onclick="buyAutoClicker()">
+                <p class="btn-name">auto clicker</p>
+                <img src="svg/btn/auto click.svg" alt="auto-clicker icon">
+                <section class="btn-price">
+                    <p><span id="autoClickerPrice">25</span><span class="money-icon"></span></p>
+                </section>
+            </a>
+            <a href="#" id ="btn-bonus" class="btn grey disable" onclick="buyBonus()">
+                <p class="btn-name">bonus - 30s</p>
+                <img src="svg/btn/bonus.svg" alt="auto-clicker icon">
+                <section class="btn-price">
+                    <p><span id="bonusPrice">125</span><span class="money-icon"></span></p>
+                </section>
+            </a>
+            <a href="#" id ="btn-multiplier" class="btn gold disable" onclick="buyMultiplier()">
+
+                <p class="btn-name">multiplier</p>
+                <img src="svg/btn/multi_x2.svg" alt="multiplier icon">
+                <section class="btn-price">
+
+                    <p><span id="multiplierPrice">200</span><span class="money-icon"></span></p>
+
+                </section>
+            </a>
+        </section>
+    </main>
+    <footer>
+        <p>©Thomas</p>
+        <p>©Marc</p>
+        <p>©Pauline</p>
+        <p>©Gonçalo</p>
+    </footer>
+    <script src="Script.js"></script>
+</body>
+</html>

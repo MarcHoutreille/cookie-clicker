@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body {
+    background-color: #FE2555;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    margin: 25px 20px;
+}
+
+.btn {
+    grid-auto-columns: min-content;
+    width: 86.5px;
+    text-align: center;
+    font-size: 0.8em;
+    overflow: hidden;
+    border-radius: 1.5em;
+    justify-self: center;
+    box-shadow: 0px 4px 6px 2px rgba(0, 0, 0, 0.50);
+}
+
+.btn,
+.btn-price p {
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+}
+
+.blue {
+    background-color: #5392b9;
+}
+
+.grey {
+    background-color: #403a44;
+}
+
+.gold {
+    background-color: #e9995c;
+}
+
+.disable {
+    background-color: #a2a2a2 !important;
+}
+
+.disable img {
+    opacity: 0.2;
+    filter: invert();
+}
+
+.active .btn-name {
+    color: white;
+    margin: 10px 5px 5px;
+}
+
+.btn-name {
+    color: #808080;
+    margin: 10px 5px 5px;
+}
+
+.active .btn-price {
+    background-color: #eecad1;
+}
+
+.btn-price {
+    background-color: #b3b3b3;
+}
+
+.active .btn-price p {
+    color: #403a44;
+}
+
+.btn-price p {
+    margin-top: 5px;
+    font-size: 1.6em;
+    color: #808080;
+    padding: 4px 2px;
+}
+
+.btn img {
+    justify-self: center;
+    width: 70%;
+}
+
+.money-icon {
+    content: url("../svg/btn/money_btn.svg");
+    padding-left: 12px;
+    width: 1em;
+    opacity: 0.4;
+}
+
+.active .money-icon {
+    content: url("../svg/btn/money_btn.svg");
+    padding-left: 12px;
+    width: 1em;
+    opacity: 1;
+}
+
+@media screen and (min-width: 640px) {
+    .btn {
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+        width: auto;
+    }
+    .btn-name {
+        justify-self: left;
+        padding-left: 15px;
+    }
+    .btn img{
+        align-self: center;
+        height: 80%;
+    }
+    .row {
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: 1fr;
+        row-gap: 25px;
+    }
+}
