@@ -92,25 +92,12 @@ footer {
     }
 }
 
-/* .clicker {
-    display:block;
-    padding-left: 50px;
-    padding-right: 50px; 
-    width: 250px;
-} */
-
-/*.clicker{
-    display:flex;
-    justify-content: center;
-    flex-direction:row;
-}*/
-
 .clickercontainer img{
     position: relative;
     transition: all .1s ease-in-out; 
     place-self: center center ;
     max-height: 340px;
-    width: 70%;
+    width: 90%;
 }
 
 .clickercontainer img:hover{ 

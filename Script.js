@@ -104,6 +104,19 @@ function buyBonus () {
 
  setInterval(function(){
     score = parseInt(score + autoClicker);
+    
+    if (score >= 100 && score < 200) {
+        document.getElementById("change- image").src ="svg/hdd.svg";
+    } else if (score >= 200 && score < 500) {
+        document.getElementById("change- image").src ="svg/macintosh.svg";
+    } else if (score >= 500 && score < 1000) {
+        document.getElementById("change- image").src ="svg/desktop.svg";
+    } else if (score >= 1000 && score < 1500) {
+        document.getElementById("change- image").src ="svg/pc.svg";
+    } else if (score >= 1500) {
+        document.getElementById("change- image").src ="svg/imac.svg";
+    }
+
     let autoclicker = document.getElementById("btn-autoclicker");
     let multiplier = document.getElementById("btn-multiplier");
     let bonus = document.getElementById("btn-bonus");
