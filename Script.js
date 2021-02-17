@@ -5,14 +5,15 @@ let bonus = 0;
 let autoClicker = 0;
 
 let autoClickerPrice = 25;
-let multiplierPrice = 50;
-let bonusPrice = 75;
+let bonusPrice = 125;
+let multiplierPrice = 200;
+
 
 score = document.getElementById('score').innerHTML;
 
 /* Add to score when clicked */
 function addToscore(n, multiplierPower, bonus) {
-    if ((multiplierPower == 0 && bonus == 0) && (multiplier == 0 || bonus == 0)) {
+    if ((multiplierPower == 0 && bonus == 0) && (multiplierPower == 0 || bonus == 0)) {
         score = parseInt(score) + n;
     } else {
         score = parseInt(score) + (n * (multiplierPower + bonus));
@@ -27,9 +28,8 @@ function buyAutoClicker() {
         score = score - autoClickerPrice;
         autoClicker++;
         /* ajust price increase here*/
-        autoClickerPrice = Math.round(autoClickerPrice * 1.05)
+        autoClickerPrice = Math.round(autoClickerPrice * 2)
         document.getElementById('score').innerHTML = score;
-        document.getElementById('autoClicker').innerHTML = autoClicker;
         document.getElementById('autoClickerPrice').innerHTML = autoClickerPrice;
 
     } else {
