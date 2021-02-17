@@ -1,0 +1,31 @@
+body {
+    background-color: #FE2555;
+}
+
+.clicker {
+    display:block;
+    padding-left: 50px;
+    padding-right: 50px;
+    width:500px;
+}
+
+.clickercontainer {
+    display:flex;
+    
+    justify-content: center;
+    flex-direction:row;
+}
+.clickercontainer img{
+    position: relative;
+    transition: all .1s ease-in-out; 
+}
+
+.clickercontainer img:hover{ 
+    transform: scale(1.02);
+}
+
+.clickercontainer img:active{ 
+    transform: scale(0.98);
+    
+}
+

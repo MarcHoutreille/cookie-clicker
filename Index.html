@@ -5,24 +5,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cookie clicker</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <header>
-        <section id="score">
-            <h2>
-                Score
-            </h2>
+        <article id="scoredisplay">
+            <h1 id="points-score">
+                <span id="score">
+                    0
+                </span> 
+                lines of 
+                <span id="nowrap">
+                    code
+                    <img id="icone-multiplier" class="animation-multiplier" src="svg/btn/multi_x2.svg" alt="auto-clicker icon">
+                </span>
+                </h1>
+            <p style="font-size:15px;"><span id="scorePerSecond">0</span> lines per second</p>
+        </article>
+       <!--  <article id="scoredisplay">
+            <h1 id="points-score">
+                <span id="score">0</span> 
+                lines of 
+                <span id="nowrap">code
+                    <sub id="active-multiplier" class="active-multiplier">
+                        <img class="animation-multiplier" id="iconesize" src="svg/btn/multi_x2.svg" alt="auto-clicker icon">
+                    </sub>
+                </span>            
+                <p style="font-size:15px;"><span id="scorePerSecond">0</span> lines per second</p>
+            </h1>
+        </article>  -->
+<!--        <article id="scoredisplay">
+                    <h1 id="points-score">
+                        <span id="score">0</span> 
+                        lines of 
+                        <span id="nowrap">code
+                            <sub id="active-multiplier" class="active-multiplier">
+                                x 2
+                            </sub>
+                        </span>      
+                        <p style="font-size:15px;"><span id="scorePerSecond">0</span> lines per second</p>
+                    </h1>
+        </article> -->
         </section>
         <section id="bonus">
+            <!--
             <h2>
                 Bonus
             </h2>
+            -->
         </section>
     </header>
     <main>
-        <picture>
-            <img src="" alt="image de PC">
+        <picture class="clickercontainer">
+            <img onclick="addToscore(1, multiplierPower, bonus)" src="floppy.svg" class="clicker" alt="image de PC">
         </picture>
         <article>
             <h2>
@@ -35,12 +70,15 @@
             </button>
             <button id="">
                 <h3>
-                    Multiplier
+                        <span id="multiplier">0</span>
+                        <button onclick="buyMultiplier()" id="multiplierPrice">50</button>
+                    </button>
                 </h3>
             </button>
             <button id="">
                 <h3>
-                    Bonus
+                    <span id="bonus">0</span>
+                    <button onclick="buyBonus()" id="bonusPrice">75</button>
                 </h3>
             </button>
         </article>
@@ -51,5 +89,6 @@
         <p>©Pauline</p>
         <p>©Gonzalo</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
