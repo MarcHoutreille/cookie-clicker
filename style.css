@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@900&display=swap');
+
 body {
     background-color: #FE2555;
 }
@@ -27,16 +30,46 @@ body {
     white-space: nowrap;
 }
 
-.active-multiplier {
+/* .active-multiplier {
     font-family: 'Alegreya Sans SC', sans-serif;
     color :  white;
     font-size : 25px;
     width: inherit;
     background-color: #403A44;
-    padding : 20px 20px;
-    border-radius: 50%;   
+    padding : 10px 10px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;  
     margin-left: -17px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+} */
+
+#icone-multiplier {
+    width : 50px;
+    height: auto;
+    margin-left : -10px;
+    vertical-align: -50%;
+    filter: invert();
+}
+
+.animation-multiplier {
+    animation-duration: 1s;
+    animation-name: heartbeat;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(0.75);
+    }
+    20% {
+        transform: scale(1);
+    }
+    40% {
+        transform: scale(0.75);
+    }
+    60% {
+        transform: scale(1);
+    }
 }
 
 .clicker {
@@ -45,7 +78,6 @@ body {
     padding-right: 50px;
     width: 250px;
 }
-
 
 .clicker{
     display:flex;
@@ -64,5 +96,4 @@ body {
 
 .clickercontainer img:active{ 
     transform: scale(0.98);
-    
 }

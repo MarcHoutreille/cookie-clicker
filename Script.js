@@ -1,5 +1,6 @@
 let score = 0;
-let multiplier = 0;
+let multiplierLevel = 0;
+let multiplierPower = 0;
 let bonus = 0;
 let autoClicker = 0;
 
@@ -9,10 +10,16 @@ let bonusPrice = 75;
 
 score = document.getElementById('score').innerHTML;
 
-function addToscore(n) {
-    score = parseInt(score) + n;
+/* Add to score when clicked */
+function addToscore(n, multiplierPower, bonus) {
+    if ((multiplierPower == 0 && bonus == 0) && (multiplier == 0 || bonus == 0)) {
+        score = parseInt(score) + n;
+    } else {
+        score = parseInt(score) + (n * (multiplierPower + bonus));
+    }
     document.getElementById('score').innerHTML = score;
 }
+
 /*update score per second function ?*/
 function buyAutoClicker() {
     if (score >= autoClickerPrice) {
@@ -33,15 +40,73 @@ function buyAutoClicker() {
     }
 }
 
+if (multiplierLevel < 2) {
+    document.getElementById("icone-multiplier").style.display = "none";
+}
+/*Multiplier*/
+/*
+if (multiplierLevel < 2) {
+    document.getElementById("active-multiplier").style.display = "none";
+} */
 
-setInterval(function(){
-    /*
+function buyMultiplier () {
+    if (multiplierLevel < 3) {
+        if (score >= multiplierPrice) {
+            score = score - multiplierPrice;
+            multiplierLevel++;
+            multiplierPrice = multiplierPrice * 2;
+            document.getElementById('score').innerHTML = score;
+            document.getElementById("icone-multiplier").style.display = "inline";
+            /*document.getElementById("active-multiplier").style.display = "inline";*/
+            document.getElementById('multiplierPrice').innerHTML = multiplierPrice;
+            switch (multiplierLevel) {
+                case 1 :
+                    document.getElementById("icone-multiplier").src = "svg/btn/multi_x2.svg";
+                    //document.getElementById("active-multiplier").innerHTML = "x 2";
+                    multiplierPower = 2;
+                break;
+                case 2 :
+                    document.getElementById("icone-multiplier").src = "svg/btn/multi_x5.svg";
+                    //document.getElementById("active-multiplier").innerHTML = "x 5";
+                    multiplierPower = 5;
+                break;
+                case 3 :
+                    document.getElementById("icone-multiplier").src = "svg/btn/multi_x10.svg";
+                    //document.getElementById("active-multiplier").innerHTML = "x 10";
+                    multiplierPower = 10;
+                break;
+            }
+        }
+    } else {
+        // bouton inactif 
+    }
+}
+            
+
+// addToscore(multiplier); quand bonus acheté
+
+
+function buyBonus () {
+    bonus = 2;
+    setTimeout(function(){
+        bonus = 0;
+    }, 30000);
+    if (score >= bonusPrice) {
+        score = score - bonusPrice;
+        document.getElementById('score').innerHTML = score;
+        document.getElementById('bonusPrice').innerHTML = bonusPrice;
+    } else {
+        // bonus price inactif
+    }
+}
+
+
+/* setInterval(function(){
     score = score + autoClicker;
-    score = score * multiplier;
+    score = score * multplier;
     score = score * bonus;
-    */
     document.getElementById('score').innerHTML = score;
-}, 1000);
+}, 1000); */
 
 
 
