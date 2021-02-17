@@ -40,15 +40,7 @@ function buyAutoClicker() {
     }
 }
 
-if (multiplierLevel < 2) {
-    document.getElementById("icone-multiplier").style.display = "none";
-}
 /*Multiplier*/
-/*
-if (multiplierLevel < 2) {
-    document.getElementById("active-multiplier").style.display = "none";
-} */
-
 function buyMultiplier () {
     if (multiplierLevel < 3) {
         if (score >= multiplierPrice) {
@@ -81,15 +73,13 @@ function buyMultiplier () {
         // bouton inactif 
     }
 }
-            
-
-// addToscore(multiplier); quand bonus acheté
-
 
 function buyBonus () {
     bonus = 2;
+    document.getElementById("icone-bonus").style.display = "inline";
     setTimeout(function(){
         bonus = 0;
+        document.getElementById("icone-bonus").style.display = "none";
     }, 30000);
     if (score >= bonusPrice) {
         score = score - bonusPrice;
@@ -99,7 +89,6 @@ function buyBonus () {
         // bonus price inactif
     }
 }
-
 
  setInterval(function(){
     score = parseInt(score + autoClicker);
