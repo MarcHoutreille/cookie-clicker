@@ -10,7 +10,7 @@ let bonusPrice = 75;
 document.getElementById('score').innerHTML = score;
 
 function addToscore (n){
-    score = score = n;
+    score = score + n;
     document.getElementById('score').innerHTML = score;
 }
 
