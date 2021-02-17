@@ -61,17 +61,17 @@ function buyMultiplier () {
             document.getElementById('multiplierPrice').innerHTML = multiplierPrice;
             switch (multiplierLevel) {
                 case 1 :
-                    document.getElementById("icone-multiplier").src = "svg/btn/multi_x2.svg";
+                    document.getElementById("icone-multiplier").src = "/svg/btn/multi_x2.svg";
                     //document.getElementById("active-multiplier").innerHTML = "x 2";
                     multiplierPower = 2;
                 break;
                 case 2 :
-                    document.getElementById("icone-multiplier").src = "svg/btn/multi_x5.svg";
+                    document.getElementById("icone-multiplier").src = "/svg/btn/multi_x5.svg";
                     //document.getElementById("active-multiplier").innerHTML = "x 5";
                     multiplierPower = 5;
                 break;
                 case 3 :
-                    document.getElementById("icone-multiplier").src = "svg/btn/multi_x10.svg";
+                    document.getElementById("icone-multiplier").src = "/svg/btn/multi_x10.svg";
                     //document.getElementById("active-multiplier").innerHTML = "x 10";
                     multiplierPower = 10;
                 break;
@@ -101,12 +101,10 @@ function buyBonus () {
 }
 
 
-/* setInterval(function(){
-    score = score + autoClicker;
-    score = score * multplier;
-    score = score * bonus;
+ setInterval(function(){
+    score = parseInt(score + autoClicker);
     document.getElementById('score').innerHTML = score;
-}, 1000); */
+}, 500); 
 
 
 
