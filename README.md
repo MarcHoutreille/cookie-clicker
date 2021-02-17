@@ -2,6 +2,9 @@
 
 Collaborative project of an incremental game / cookie clicker
 
+## Checkout our page
+[GitHub Page](https://marchoutreille.github.io/cookie-clicker)
+
 ### Font-type for buttons: 
 Rubik
 * to add inside css file
@@ -105,6 +108,3 @@ Ci dessous le nom des participant a ce projet :
 - [rohmerpauline](https://github.com/rohmerpauline)
 - [MarcHoutreille](https://github.com/MarcHoutreille)
 - [gonzalovsilva](https://github.com/gonzalovsilva)
-
-## Checkout our page
-
