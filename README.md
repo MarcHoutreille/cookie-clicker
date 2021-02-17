@@ -80,8 +80,17 @@ Vision globale commmune du projet qui permettait de pouvoir le faire.
 
 Mardi : 
 
-- 
+- functions (bonus + update)
+- Création des animations sur css
+- Cloture de la réalisation graphique des boutons + export des SVG
+- Basic game design
 
 Mercredi : 
+
+- Cloture functions JS
+- Intégrations des boutons graphique dans la page web
+- Rendre le site responsive
+- Styliser le footer
+- Terminer le Readme
 
 - 
