@@ -46,7 +46,7 @@ body {
     height: auto;
     margin-left : -10px;
     vertical-align: -50%;
-    filter: invert();
+    filter: drop-shadow(0px 2px 0px #414141);
     
 }
 
