@@ -73,6 +73,7 @@ footer {
     animation-name: heartbeat;
     animation-iteration-count: infinite;
     transform-origin: center;
+    display: none;
 }
 
 @keyframes heartbeat {
